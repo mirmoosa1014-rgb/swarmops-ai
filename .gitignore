@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+node_modules/
+dist/
+.env*
+runs/
+# Reproduce these detailed logs locally; retain aggregate results in Git.
+results/ml-full/evaluation/
+results/browser-launch.json
+.DS_Store
+*.log

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "run_records_checked": 270,
+  "scenario_cases": 90,
+  "assignment_records_checked": 8807,
+  "model_id": "0df091ba42337d4a4285e5ddf8c322f2bb9e77565bc7fe689f66cf3e90829251",
+  "replayed_case": "test-0-13000-light",
+  "source_hashes_match": true,
+  "split_disjointness": true,
+  "browser_ui_verified": false,
+  "png_exported": false
+}

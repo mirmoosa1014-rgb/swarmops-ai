@@ -1,0 +1,115 @@
+{
+  "selected_model": {
+    "kind": "forest",
+    "config": {
+      "trees": 24,
+      "depth": 5,
+      "leaf": 8,
+      "seed": 17
+    },
+    "n": 721,
+    "mae": 2.033899676788015,
+    "bias": -0.36331992310280264,
+    "fit_seconds": 0.5194085000548512
+  },
+  "candidate_validation_scores": [
+    {
+      "kind": "linear",
+      "config": {
+        "trees": 24,
+        "depth": 5,
+        "leaf": 8,
+        "seed": 17
+      },
+      "n": 721,
+      "mae": 2.1976103897890256,
+      "bias": -0.19729059780200844,
+      "fit_seconds": 0.018766666995361447
+    },
+    {
+      "kind": "forest",
+      "config": {
+        "trees": 16,
+        "depth": 3,
+        "leaf": 12,
+        "seed": 17
+      },
+      "n": 721,
+      "mae": 2.0367767208884064,
+      "bias": -0.4167529380336382,
+      "fit_seconds": 0.22204437479376793
+    },
+    {
+      "kind": "forest",
+      "config": {
+        "trees": 24,
+        "depth": 5,
+        "leaf": 8,
+        "seed": 17
+      },
+      "n": 721,
+      "mae": 2.033899676788015,
+      "bias": -0.36331992310280264,
+      "fit_seconds": 0.5194085000548512
+    }
+  ],
+  "distance_validation": {
+    "n": 721,
+    "mae": 1.840499306518724,
+    "bias": -1.840499306518724
+  },
+  "training_samples": 2068,
+  "validation_samples": 721,
+  "training_censored": 252,
+  "split_method": "entire disjoint layouts and run seeds",
+  "implementation": "project-standard-library-regressors-v1",
+  "status": "frozen-before-final-evaluation",
+  "python": "3.14.3",
+  "feature_ranges": {
+    "empty_distance": [
+      0.0,
+      23.0
+    ],
+    "loaded_distance": [
+      1.0,
+      22.0
+    ],
+    "service_ticks": [
+      2.0,
+      2.0
+    ],
+    "occupied_route_cells": [
+      0.0,
+      4.0
+    ],
+    "nearby_robots": [
+      0.0,
+      5.0
+    ],
+    "queue_length": [
+      1.0,
+      57.0
+    ],
+    "fleet_size": [
+      4.0,
+      6.0
+    ],
+    "available_robots": [
+      1.0,
+      6.0
+    ],
+    "active_jobs": [
+      0.0,
+      5.0
+    ],
+    "free_cells": [
+      104.0,
+      163.0
+    ],
+    "narrow_fraction": [
+      0.034013605442176874,
+      0.0684931506849315
+    ]
+  },
+  "model_id": "0df091ba42337d4a4285e5ddf8c322f2bb9e77565bc7fe689f66cf3e90829251"
+}

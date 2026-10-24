@@ -1,0 +1,3177 @@
+{
+  "summary": {
+    "policy": "congestion",
+    "scenario_hash": "b440cee0ef5a0dd0af9970a533efccebfa5905cd1600a30cd8fc4c5178222e3a",
+    "simulation_revision": "0.2.0",
+    "tick": 200,
+    "seed": 0,
+    "released": 25,
+    "completed": 22,
+    "completion_fraction": 0.88,
+    "backlog": 3,
+    "impossible": 0,
+    "censored_assigned": 3,
+    "mean_latency": 27.227272727272727,
+    "p95_latency": 42,
+    "travel_ticks": 595,
+    "waiting_ticks": 120,
+    "vertex_violations": 0,
+    "edge_violations": 0,
+    "planning_failures": 0,
+    "stall_events": 0,
+    "recoveries": 0,
+    "planner_seconds": 0.3320815886836499,
+    "candidate_seconds": 0.004609792493283749,
+    "scoring_seconds": 0.00015128985978662968,
+    "elapsed_seconds": 0.3472546248231083,
+    "assignments": 25,
+    "infeasible_pair_ticks": 0,
+    "candidate_limit_excluded_job_ticks": 0,
+    "layout": "bottleneck",
+    "demand": "light"
+  },
+  "dispatch_config": {
+    "candidate_jobs": 32,
+    "aging_weight": 0.1
+  },
+  "decisions": [
+    {
+      "robot_id": 3,
+      "job_id": "job-0000",
+      "release": 0,
+      "observed_tick": 0,
+      "empty_distance": 15,
+      "loaded_distance": 3,
+      "service_ticks": 2,
+      "occupied_route_cells": 0,
+      "nearby_robots": 0,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 4,
+      "active_jobs": 0
+    },
+    {
+      "robot_id": 1,
+      "job_id": "job-0001",
+      "release": 8,
+      "observed_tick": 8,
+      "empty_distance": 7,
+      "loaded_distance": 6,
+      "service_ticks": 2,
+      "occupied_route_cells": 0,
+      "nearby_robots": 0,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 3,
+      "active_jobs": 1
+    },
+    {
+      "robot_id": 2,
+      "job_id": "job-0002",
+      "release": 16,
+      "observed_tick": 16,
+      "empty_distance": 9,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 3,
+      "job_id": "job-0003",
+      "release": 24,
+      "observed_tick": 24,
+      "empty_distance": 5,
+      "loaded_distance": 16,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 1,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 1,
+      "job_id": "job-0004",
+      "release": 32,
+      "observed_tick": 32,
+      "empty_distance": 17,
+      "loaded_distance": 16,
+      "service_ticks": 2,
+      "occupied_route_cells": 2,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 0,
+      "job_id": "job-0005",
+      "release": 40,
+      "observed_tick": 40,
+      "empty_distance": 11,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 2,
+      "job_id": "job-0006",
+      "release": 48,
+      "observed_tick": 48,
+      "empty_distance": 7,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 1,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 3,
+      "job_id": "job-0007",
+      "release": 56,
+      "observed_tick": 58,
+      "empty_distance": 0,
+      "loaded_distance": 16,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 1,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 1,
+      "job_id": "job-0008",
+      "release": 64,
+      "observed_tick": 71,
+      "empty_distance": 6,
+      "loaded_distance": 3,
+      "service_ticks": 2,
+      "occupied_route_cells": 0,
+      "nearby_robots": 0,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 0,
+      "job_id": "job-0009",
+      "release": 72,
+      "observed_tick": 73,
+      "empty_distance": 16,
+      "loaded_distance": 9,
+      "service_ticks": 2,
+      "occupied_route_cells": 3,
+      "nearby_robots": 3,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 2,
+      "job_id": "job-0010",
+      "release": 80,
+      "observed_tick": 80,
+      "empty_distance": 6,
+      "loaded_distance": 10,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 1,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 3,
+      "job_id": "job-0011",
+      "release": 88,
+      "observed_tick": 88,
+      "empty_distance": 8,
+      "loaded_distance": 16,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 1,
+      "job_id": "job-0012",
+      "release": 96,
+      "observed_tick": 96,
+      "empty_distance": 7,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 2,
+      "job_id": "job-0013",
+      "release": 104,
+      "observed_tick": 104,
+      "empty_distance": 10,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 0,
+      "nearby_robots": 1,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 0,
+      "job_id": "job-0014",
+      "release": 112,
+      "observed_tick": 112,
+      "empty_distance": 15,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 2,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 3,
+      "job_id": "job-0015",
+      "release": 120,
+      "observed_tick": 120,
+      "empty_distance": 9,
+      "loaded_distance": 6,
+      "service_ticks": 2,
+      "occupied_route_cells": 0,
+      "nearby_robots": 0,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 1,
+      "job_id": "job-0016",
+      "release": 128,
+      "observed_tick": 128,
+      "empty_distance": 6,
+      "loaded_distance": 16,
+      "service_ticks": 2,
+      "occupied_route_cells": 2,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 3,
+      "job_id": "job-0017",
+      "release": 136,
+      "observed_tick": 139,
+      "empty_distance": 9,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 1,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 2,
+      "job_id": "job-0018",
+      "release": 144,
+      "observed_tick": 146,
+      "empty_distance": 9,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 3,
+      "nearby_robots": 3,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 0,
+      "job_id": "job-0019",
+      "release": 152,
+      "observed_tick": 154,
+      "empty_distance": 13,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 1,
+      "job_id": "job-0020",
+      "release": 160,
+      "observed_tick": 160,
+      "empty_distance": 1,
+      "loaded_distance": 6,
+      "service_ticks": 2,
+      "occupied_route_cells": 0,
+      "nearby_robots": 0,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 3,
+      "job_id": "job-0021",
+      "release": 168,
+      "observed_tick": 168,
+      "empty_distance": 10,
+      "loaded_distance": 3,
+      "service_ticks": 2,
+      "occupied_route_cells": 0,
+      "nearby_robots": 1,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 1,
+      "active_jobs": 3
+    },
+    {
+      "robot_id": 1,
+      "job_id": "job-0022",
+      "release": 176,
+      "observed_tick": 176,
+      "empty_distance": 5,
+      "loaded_distance": 16,
+      "service_ticks": 2,
+      "occupied_route_cells": 2,
+      "nearby_robots": 3,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 2,
+      "job_id": "job-0023",
+      "release": 184,
+      "observed_tick": 184,
+      "empty_distance": 5,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    },
+    {
+      "robot_id": 3,
+      "job_id": "job-0024",
+      "release": 192,
+      "observed_tick": 192,
+      "empty_distance": 8,
+      "loaded_distance": 13,
+      "service_ticks": 2,
+      "occupied_route_cells": 1,
+      "nearby_robots": 2,
+      "queue_length": 1,
+      "fleet_size": 4,
+      "available_robots": 2,
+      "active_jobs": 2
+    }
+  ],
+  "candidate_audit": [
+    {
+      "tick": 0,
+      "queued": 1,
+      "available_robots": 4,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 4,
+      "assigned": 1
+    },
+    {
+      "tick": 1,
+      "queued": 0,
+      "available_robots": 3,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 2,
+      "queued": 0,
+      "available_robots": 3,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 3,
+      "queued": 0,
+      "available_robots": 3,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 4,
+      "queued": 0,
+      "available_robots": 3,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 5,
+      "queued": 0,
+      "available_robots": 3,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 6,
+      "queued": 0,
+      "available_robots": 3,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 7,
+      "queued": 0,
+      "available_robots": 3,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 8,
+      "queued": 1,
+      "available_robots": 3,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 3,
+      "assigned": 1
+    },
+    {
+      "tick": 9,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 10,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 11,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 12,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 13,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 14,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 15,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 16,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 17,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 18,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 19,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 20,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 21,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 22,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 23,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 24,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 25,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 26,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 27,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 28,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 29,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 30,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 31,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 32,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 33,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 34,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 35,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 36,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 37,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 38,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 39,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 40,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 41,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 42,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 43,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 44,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 45,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 46,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 47,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 48,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 49,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 50,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 51,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 52,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 53,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 54,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 55,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 56,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 57,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 58,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 59,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 60,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 61,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 62,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 63,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 64,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 65,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 66,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 67,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 68,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 69,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 70,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 71,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 72,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 73,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 74,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 75,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 76,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 77,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 78,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 79,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 80,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 81,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 82,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 83,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 84,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 85,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 86,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 87,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 88,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 89,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 90,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 91,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 92,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 93,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 94,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 95,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 96,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 97,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 98,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 99,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 100,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 101,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 102,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 103,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 104,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 105,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 106,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 107,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 108,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 109,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 110,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 111,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 112,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 113,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 114,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 115,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 116,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 117,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 118,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 119,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 120,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 121,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 122,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 123,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 124,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 125,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 126,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 127,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 128,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 129,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 130,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 131,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 132,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 133,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 134,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 135,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 136,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 137,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 138,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 139,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 140,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 141,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 142,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 143,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 144,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 145,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 146,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 147,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 148,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 149,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 150,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 151,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 152,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 153,
+      "queued": 1,
+      "available_robots": 0,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 154,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 155,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 156,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 157,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 158,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 159,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 160,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 161,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 162,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 163,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 164,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 165,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 166,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 167,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 168,
+      "queued": 1,
+      "available_robots": 1,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 1,
+      "assigned": 1
+    },
+    {
+      "tick": 169,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 170,
+      "queued": 0,
+      "available_robots": 0,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 171,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 172,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 173,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 174,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 175,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 176,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 177,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 178,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 179,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 180,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 181,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 182,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 183,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 184,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 185,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 186,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 187,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 188,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 189,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 190,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 191,
+      "queued": 0,
+      "available_robots": 2,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 192,
+      "queued": 1,
+      "available_robots": 2,
+      "considered_jobs": 1,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 2,
+      "assigned": 1
+    },
+    {
+      "tick": 193,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 194,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 195,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 196,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 197,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 198,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    },
+    {
+      "tick": 199,
+      "queued": 0,
+      "available_robots": 1,
+      "considered_jobs": 0,
+      "excluded_by_limit": 0,
+      "infeasible_pairs": 0,
+      "feasible_pairs": 0,
+      "assigned": 0
+    }
+  ],
+  "events": [
+    {
+      "tick": 0,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0000"
+    },
+    {
+      "tick": 8,
+      "kind": "assignment",
+      "robot": 1,
+      "job": "job-0001"
+    },
+    {
+      "tick": 16,
+      "kind": "assignment",
+      "robot": 2,
+      "job": "job-0002"
+    },
+    {
+      "tick": 22,
+      "kind": "delivered",
+      "job": "job-0000"
+    },
+    {
+      "tick": 24,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0003"
+    },
+    {
+      "tick": 25,
+      "kind": "delivered",
+      "job": "job-0001"
+    },
+    {
+      "tick": 32,
+      "kind": "assignment",
+      "robot": 1,
+      "job": "job-0004"
+    },
+    {
+      "tick": 35,
+      "kind": "closure_activated",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "tick": 40,
+      "kind": "assignment",
+      "robot": 0,
+      "job": "job-0005"
+    },
+    {
+      "tick": 42,
+      "kind": "delivered",
+      "job": "job-0002"
+    },
+    {
+      "tick": 48,
+      "kind": "assignment",
+      "robot": 2,
+      "job": "job-0006"
+    },
+    {
+      "tick": 58,
+      "kind": "delivered",
+      "job": "job-0003"
+    },
+    {
+      "tick": 58,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0007"
+    },
+    {
+      "tick": 71,
+      "kind": "delivered",
+      "job": "job-0004"
+    },
+    {
+      "tick": 71,
+      "kind": "assignment",
+      "robot": 1,
+      "job": "job-0008"
+    },
+    {
+      "tick": 73,
+      "kind": "delivered",
+      "job": "job-0005"
+    },
+    {
+      "tick": 73,
+      "kind": "assignment",
+      "robot": 0,
+      "job": "job-0009"
+    },
+    {
+      "tick": 77,
+      "kind": "delivered",
+      "job": "job-0006"
+    },
+    {
+      "tick": 80,
+      "kind": "delivered",
+      "job": "job-0007"
+    },
+    {
+      "tick": 80,
+      "kind": "assignment",
+      "robot": 2,
+      "job": "job-0010"
+    },
+    {
+      "tick": 84,
+      "kind": "delivered",
+      "job": "job-0008"
+    },
+    {
+      "tick": 88,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0011"
+    },
+    {
+      "tick": 96,
+      "kind": "assignment",
+      "robot": 1,
+      "job": "job-0012"
+    },
+    {
+      "tick": 100,
+      "kind": "delivered",
+      "job": "job-0010"
+    },
+    {
+      "tick": 104,
+      "kind": "delivered",
+      "job": "job-0009"
+    },
+    {
+      "tick": 104,
+      "kind": "assignment",
+      "robot": 2,
+      "job": "job-0013"
+    },
+    {
+      "tick": 112,
+      "kind": "assignment",
+      "robot": 0,
+      "job": "job-0014"
+    },
+    {
+      "tick": 116,
+      "kind": "delivered",
+      "job": "job-0011"
+    },
+    {
+      "tick": 120,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0015"
+    },
+    {
+      "tick": 122,
+      "kind": "delivered",
+      "job": "job-0012"
+    },
+    {
+      "tick": 128,
+      "kind": "assignment",
+      "robot": 1,
+      "job": "job-0016"
+    },
+    {
+      "tick": 139,
+      "kind": "delivered",
+      "job": "job-0015"
+    },
+    {
+      "tick": 139,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0017"
+    },
+    {
+      "tick": 146,
+      "kind": "delivered",
+      "job": "job-0013"
+    },
+    {
+      "tick": 146,
+      "kind": "assignment",
+      "robot": 2,
+      "job": "job-0018"
+    },
+    {
+      "tick": 154,
+      "kind": "delivered",
+      "job": "job-0014"
+    },
+    {
+      "tick": 154,
+      "kind": "delivered",
+      "job": "job-0016"
+    },
+    {
+      "tick": 154,
+      "kind": "assignment",
+      "robot": 0,
+      "job": "job-0019"
+    },
+    {
+      "tick": 160,
+      "kind": "assignment",
+      "robot": 1,
+      "job": "job-0020"
+    },
+    {
+      "tick": 165,
+      "kind": "delivered",
+      "job": "job-0017"
+    },
+    {
+      "tick": 168,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0021"
+    },
+    {
+      "tick": 171,
+      "kind": "delivered",
+      "job": "job-0020"
+    },
+    {
+      "tick": 173,
+      "kind": "delivered",
+      "job": "job-0018"
+    },
+    {
+      "tick": 176,
+      "kind": "assignment",
+      "robot": 1,
+      "job": "job-0022"
+    },
+    {
+      "tick": 184,
+      "kind": "delivered",
+      "job": "job-0019"
+    },
+    {
+      "tick": 184,
+      "kind": "assignment",
+      "robot": 2,
+      "job": "job-0023"
+    },
+    {
+      "tick": 187,
+      "kind": "delivered",
+      "job": "job-0021"
+    },
+    {
+      "tick": 192,
+      "kind": "assignment",
+      "robot": 3,
+      "job": "job-0024"
+    }
+  ],
+  "closures": [
+    {
+      "spec": {
+        "cell": [
+          5,
+          1
+        ],
+        "requested": 35,
+        "duration": 20
+      },
+      "activated": 35,
+      "ended": 55
+    }
+  ],
+  "jobs": {
+    "job-0000": {
+      "spec": {
+        "id": "job-0000",
+        "release": 0,
+        "pickup": [
+          11,
+          7
+        ],
+        "delivery": [
+          8,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 0,
+      "picked": 17,
+      "completed": 22,
+      "reason": null
+    },
+    "job-0001": {
+      "spec": {
+        "id": "job-0001",
+        "release": 8,
+        "pickup": [
+          1,
+          1
+        ],
+        "delivery": [
+          1,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 8,
+      "picked": 17,
+      "completed": 25,
+      "reason": null
+    },
+    "job-0002": {
+      "spec": {
+        "id": "job-0002",
+        "release": 16,
+        "pickup": [
+          4,
+          1
+        ],
+        "delivery": [
+          11,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 16,
+      "picked": 27,
+      "completed": 42,
+      "reason": null
+    },
+    "job-0003": {
+      "spec": {
+        "id": "job-0003",
+        "release": 24,
+        "pickup": [
+          11,
+          7
+        ],
+        "delivery": [
+          1,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 24,
+      "picked": 31,
+      "completed": 58,
+      "reason": null
+    },
+    "job-0004": {
+      "spec": {
+        "id": "job-0004",
+        "release": 32,
+        "pickup": [
+          11,
+          7
+        ],
+        "delivery": [
+          1,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 32,
+      "picked": 51,
+      "completed": 71,
+      "reason": null
+    },
+    "job-0005": {
+      "spec": {
+        "id": "job-0005",
+        "release": 40,
+        "pickup": [
+          4,
+          1
+        ],
+        "delivery": [
+          11,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 40,
+      "picked": 53,
+      "completed": 73,
+      "reason": null
+    },
+    "job-0006": {
+      "spec": {
+        "id": "job-0006",
+        "release": 48,
+        "pickup": [
+          4,
+          1
+        ],
+        "delivery": [
+          11,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 48,
+      "picked": 59,
+      "completed": 77,
+      "reason": null
+    },
+    "job-0007": {
+      "spec": {
+        "id": "job-0007",
+        "release": 56,
+        "pickup": [
+          1,
+          7
+        ],
+        "delivery": [
+          11,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 58,
+      "picked": 61,
+      "completed": 80,
+      "reason": null
+    },
+    "job-0008": {
+      "spec": {
+        "id": "job-0008",
+        "release": 64,
+        "pickup": [
+          1,
+          1
+        ],
+        "delivery": [
+          4,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 71,
+      "picked": 79,
+      "completed": 84,
+      "reason": null
+    },
+    "job-0009": {
+      "spec": {
+        "id": "job-0009",
+        "release": 72,
+        "pickup": [
+          1,
+          7
+        ],
+        "delivery": [
+          4,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 73,
+      "picked": 91,
+      "completed": 104,
+      "reason": null
+    },
+    "job-0010": {
+      "spec": {
+        "id": "job-0010",
+        "release": 80,
+        "pickup": [
+          8,
+          7
+        ],
+        "delivery": [
+          4,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 80,
+      "picked": 88,
+      "completed": 100,
+      "reason": null
+    },
+    "job-0011": {
+      "spec": {
+        "id": "job-0011",
+        "release": 88,
+        "pickup": [
+          11,
+          1
+        ],
+        "delivery": [
+          1,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 88,
+      "picked": 98,
+      "completed": 116,
+      "reason": null
+    },
+    "job-0012": {
+      "spec": {
+        "id": "job-0012",
+        "release": 96,
+        "pickup": [
+          1,
+          1
+        ],
+        "delivery": [
+          8,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 96,
+      "picked": 105,
+      "completed": 122,
+      "reason": null
+    },
+    "job-0013": {
+      "spec": {
+        "id": "job-0013",
+        "release": 104,
+        "pickup": [
+          8,
+          7
+        ],
+        "delivery": [
+          1,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 104,
+      "picked": 129,
+      "completed": 146,
+      "reason": null
+    },
+    "job-0014": {
+      "spec": {
+        "id": "job-0014",
+        "release": 112,
+        "pickup": [
+          11,
+          7
+        ],
+        "delivery": [
+          4,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 112,
+      "picked": 139,
+      "completed": 154,
+      "reason": null
+    },
+    "job-0015": {
+      "spec": {
+        "id": "job-0015",
+        "release": 120,
+        "pickup": [
+          1,
+          1
+        ],
+        "delivery": [
+          1,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 120,
+      "picked": 131,
+      "completed": 139,
+      "reason": null
+    },
+    "job-0016": {
+      "spec": {
+        "id": "job-0016",
+        "release": 128,
+        "pickup": [
+          11,
+          7
+        ],
+        "delivery": [
+          1,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 128,
+      "picked": 136,
+      "completed": 154,
+      "reason": null
+    },
+    "job-0017": {
+      "spec": {
+        "id": "job-0017",
+        "release": 136,
+        "pickup": [
+          4,
+          1
+        ],
+        "delivery": [
+          11,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 139,
+      "picked": 150,
+      "completed": 165,
+      "reason": null
+    },
+    "job-0018": {
+      "spec": {
+        "id": "job-0018",
+        "release": 144,
+        "pickup": [
+          4,
+          1
+        ],
+        "delivery": [
+          11,
+          7
+        ]
+      },
+      "status": "completed",
+      "assigned": 146,
+      "picked": 157,
+      "completed": 173,
+      "reason": null
+    },
+    "job-0019": {
+      "spec": {
+        "id": "job-0019",
+        "release": 152,
+        "pickup": [
+          11,
+          7
+        ],
+        "delivery": [
+          4,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 154,
+      "picked": 169,
+      "completed": 184,
+      "reason": null
+    },
+    "job-0020": {
+      "spec": {
+        "id": "job-0020",
+        "release": 160,
+        "pickup": [
+          1,
+          7
+        ],
+        "delivery": [
+          1,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 160,
+      "picked": 163,
+      "completed": 171,
+      "reason": null
+    },
+    "job-0021": {
+      "spec": {
+        "id": "job-0021",
+        "release": 168,
+        "pickup": [
+          4,
+          1
+        ],
+        "delivery": [
+          1,
+          1
+        ]
+      },
+      "status": "completed",
+      "assigned": 168,
+      "picked": 180,
+      "completed": 187,
+      "reason": null
+    },
+    "job-0022": {
+      "spec": {
+        "id": "job-0022",
+        "release": 176,
+        "pickup": [
+          1,
+          1
+        ],
+        "delivery": [
+          11,
+          7
+        ]
+      },
+      "status": "assigned",
+      "assigned": 176,
+      "picked": 183,
+      "completed": null,
+      "reason": null
+    },
+    "job-0023": {
+      "spec": {
+        "id": "job-0023",
+        "release": 184,
+        "pickup": [
+          8,
+          7
+        ],
+        "delivery": [
+          1,
+          1
+        ]
+      },
+      "status": "assigned",
+      "assigned": 184,
+      "picked": 191,
+      "completed": null,
+      "reason": null
+    },
+    "job-0024": {
+      "spec": {
+        "id": "job-0024",
+        "release": 192,
+        "pickup": [
+          4,
+          1
+        ],
+        "delivery": [
+          11,
+          7
+        ]
+      },
+      "status": "assigned",
+      "assigned": 192,
+      "picked": null,
+      "completed": null,
+      "reason": null
+    }
+  }
+}

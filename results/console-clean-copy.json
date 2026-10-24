@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "tests": 42,
+  "frontend_install": "npm ci offline from lockfile",
+  "frontend_build": true,
+  "relocated_backend_model_static_assets": true
+}

@@ -1,0 +1,21 @@
+{
+  "simulation_revision": "0.1.0",
+  "tick": 300,
+  "seed": 7,
+  "released": 24,
+  "completed": 24,
+  "completion_fraction": 1.0,
+  "backlog": 0,
+  "impossible": 0,
+  "censored_assigned": 0,
+  "mean_latency": 35.208333333333336,
+  "p95_latency": 51,
+  "travel_ticks": 428,
+  "waiting_ticks": 133,
+  "vertex_violations": 0,
+  "edge_violations": 0,
+  "planning_failures": 0,
+  "stall_events": 0,
+  "recoveries": 0,
+  "planner_seconds": 0.1850788276642561
+}

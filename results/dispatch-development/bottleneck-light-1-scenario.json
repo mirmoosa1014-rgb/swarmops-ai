@@ -1,0 +1,380 @@
+{
+  "closures": [
+    {
+      "cell": [
+        5,
+        1
+      ],
+      "duration": 20,
+      "requested": 35
+    }
+  ],
+  "height": 9,
+  "horizon": 200,
+  "orders": [
+    {
+      "delivery": [
+        4,
+        1
+      ],
+      "id": "job-0000",
+      "pickup": [
+        11,
+        1
+      ],
+      "release": 0
+    },
+    {
+      "delivery": [
+        1,
+        7
+      ],
+      "id": "job-0001",
+      "pickup": [
+        1,
+        1
+      ],
+      "release": 8
+    },
+    {
+      "delivery": [
+        11,
+        7
+      ],
+      "id": "job-0002",
+      "pickup": [
+        1,
+        1
+      ],
+      "release": 16
+    },
+    {
+      "delivery": [
+        8,
+        7
+      ],
+      "id": "job-0003",
+      "pickup": [
+        11,
+        7
+      ],
+      "release": 24
+    },
+    {
+      "delivery": [
+        11,
+        7
+      ],
+      "id": "job-0004",
+      "pickup": [
+        8,
+        7
+      ],
+      "release": 32
+    },
+    {
+      "delivery": [
+        1,
+        1
+      ],
+      "id": "job-0005",
+      "pickup": [
+        11,
+        1
+      ],
+      "release": 40
+    },
+    {
+      "delivery": [
+        1,
+        1
+      ],
+      "id": "job-0006",
+      "pickup": [
+        11,
+        7
+      ],
+      "release": 48
+    },
+    {
+      "delivery": [
+        8,
+        7
+      ],
+      "id": "job-0007",
+      "pickup": [
+        11,
+        7
+      ],
+      "release": 56
+    },
+    {
+      "delivery": [
+        1,
+        1
+      ],
+      "id": "job-0008",
+      "pickup": [
+        4,
+        1
+      ],
+      "release": 64
+    },
+    {
+      "delivery": [
+        11,
+        7
+      ],
+      "id": "job-0009",
+      "pickup": [
+        8,
+        7
+      ],
+      "release": 72
+    },
+    {
+      "delivery": [
+        11,
+        1
+      ],
+      "id": "job-0010",
+      "pickup": [
+        1,
+        7
+      ],
+      "release": 80
+    },
+    {
+      "delivery": [
+        1,
+        1
+      ],
+      "id": "job-0011",
+      "pickup": [
+        4,
+        1
+      ],
+      "release": 88
+    },
+    {
+      "delivery": [
+        1,
+        1
+      ],
+      "id": "job-0012",
+      "pickup": [
+        1,
+        7
+      ],
+      "release": 96
+    },
+    {
+      "delivery": [
+        8,
+        7
+      ],
+      "id": "job-0013",
+      "pickup": [
+        1,
+        1
+      ],
+      "release": 104
+    },
+    {
+      "delivery": [
+        4,
+        1
+      ],
+      "id": "job-0014",
+      "pickup": [
+        8,
+        7
+      ],
+      "release": 112
+    },
+    {
+      "delivery": [
+        11,
+        7
+      ],
+      "id": "job-0015",
+      "pickup": [
+        1,
+        1
+      ],
+      "release": 120
+    },
+    {
+      "delivery": [
+        11,
+        1
+      ],
+      "id": "job-0016",
+      "pickup": [
+        8,
+        7
+      ],
+      "release": 128
+    },
+    {
+      "delivery": [
+        1,
+        1
+      ],
+      "id": "job-0017",
+      "pickup": [
+        11,
+        7
+      ],
+      "release": 136
+    },
+    {
+      "delivery": [
+        11,
+        1
+      ],
+      "id": "job-0018",
+      "pickup": [
+        4,
+        1
+      ],
+      "release": 144
+    },
+    {
+      "delivery": [
+        8,
+        7
+      ],
+      "id": "job-0019",
+      "pickup": [
+        11,
+        7
+      ],
+      "release": 152
+    },
+    {
+      "delivery": [
+        11,
+        1
+      ],
+      "id": "job-0020",
+      "pickup": [
+        4,
+        1
+      ],
+      "release": 160
+    },
+    {
+      "delivery": [
+        11,
+        1
+      ],
+      "id": "job-0021",
+      "pickup": [
+        1,
+        7
+      ],
+      "release": 168
+    },
+    {
+      "delivery": [
+        11,
+        1
+      ],
+      "id": "job-0022",
+      "pickup": [
+        8,
+        7
+      ],
+      "release": 176
+    },
+    {
+      "delivery": [
+        1,
+        7
+      ],
+      "id": "job-0023",
+      "pickup": [
+        11,
+        7
+      ],
+      "release": 184
+    },
+    {
+      "delivery": [
+        11,
+        7
+      ],
+      "id": "job-0024",
+      "pickup": [
+        1,
+        1
+      ],
+      "release": 192
+    }
+  ],
+  "parking": [
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "pauses": [
+    [
+      0,
+      65,
+      5
+    ]
+  ],
+  "planning_horizon": 12,
+  "seed": 1,
+  "service_ticks": 2,
+  "version": 1,
+  "walls": [
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ]
+  ],
+  "width": 13
+}

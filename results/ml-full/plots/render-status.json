@@ -1,0 +1,4 @@
+{
+  "png_exported": false,
+  "details": "Cannot find module 'playwright'\nRequire stack:\n- /Users/moosamir/Documents/ChatGPT/Github Projects/swarmops-ai/scripts/render-plots.cjs\n"
+}

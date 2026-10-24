@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "renderer": "matplotlib",
+  "version": "3.11.2",
+  "charts": 5,
+  "source": "existing frozen CSV results; no retraining"
+}

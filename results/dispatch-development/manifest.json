@@ -1,0 +1,35 @@
+{
+  "config": {
+    "layouts": [
+      "small",
+      "medium",
+      "bottleneck"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "horizon": 200,
+    "robots": 4,
+    "split": "development-only",
+    "dispatch_config": {
+      "candidate_jobs": 32,
+      "aging_weight": 0.1
+    }
+  },
+  "source_hashes": {
+    "__init__.py": "22315af9e83fdfcad1f0a369c8d6b7060e61c1433411aca198036bf59cd64941",
+    "__main__.py": "b9dbf483d5c62315ef7fd7106a763fe591269c0649186332227bba480fd2d206",
+    "dispatch.py": "304953fa8bbc4b451761822b349d3a517dbd86adab9c677ee0ea313763a52f81",
+    "experiments.py": "68a8afc280abd429590757be92ef58c8edc933f788ab6ff833607542217f6a48",
+    "planning.py": "14d39b703b4795268b01454de13b982e146a16b4dba4562bbb0154072bce7055",
+    "scenario.py": "018cb728f01e651d1dc6e3a1c11f737cef680473256c091f11048afced4348ae",
+    "simulation.py": "1cbb9801c726e96d4325cad40bd8bb4b294c390adfa52e4675b19eb29d7a7473"
+  },
+  "status": "complete",
+  "runs": 60,
+  "pairs": 30
+}

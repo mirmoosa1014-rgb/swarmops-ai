@@ -1,0 +1,16 @@
+{
+  "source": "results/ml-full/evaluation-runs.csv",
+  "totals": {
+    "test": {
+      "distance": 2156,
+      "congestion": 2241,
+      "learned": 2192
+    },
+    "ood": {
+      "distance": 359,
+      "congestion": 460,
+      "learned": 351
+    }
+  },
+  "policy_runs": 270
+}

@@ -1,0 +1,12 @@
+feature,permuted_mae_increase
+empty_distance,4.510532502963079
+loaded_distance,5.878317100488864
+service_ticks,0.0
+occupied_route_cells,0.06728739061112066
+nearby_robots,0.09287667797004406
+queue_length,0.04598345391178649
+fleet_size,-0.0025249349178868563
+available_robots,0.025585039567909806
+active_jobs,0.019594499256985642
+free_cells,0.03441336974211806
+narrow_fraction,0.0005332901313601646

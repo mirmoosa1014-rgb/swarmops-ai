@@ -1,0 +1,274 @@
+[
+  {
+    "tick": 0,
+    "kind": "assignment",
+    "robot": 0,
+    "job": "job-0000"
+  },
+  {
+    "tick": 4,
+    "kind": "assignment",
+    "robot": 1,
+    "job": "job-0001"
+  },
+  {
+    "tick": 8,
+    "kind": "assignment",
+    "robot": 2,
+    "job": "job-0002"
+  },
+  {
+    "tick": 12,
+    "kind": "assignment",
+    "robot": 3,
+    "job": "job-0003"
+  },
+  {
+    "tick": 22,
+    "kind": "delivered",
+    "job": "job-0000"
+  },
+  {
+    "tick": 22,
+    "kind": "assignment",
+    "robot": 0,
+    "job": "job-0004"
+  },
+  {
+    "tick": 23,
+    "kind": "delivered",
+    "job": "job-0002"
+  },
+  {
+    "tick": 23,
+    "kind": "assignment",
+    "robot": 2,
+    "job": "job-0005"
+  },
+  {
+    "tick": 31,
+    "kind": "delivered",
+    "job": "job-0003"
+  },
+  {
+    "tick": 31,
+    "kind": "assignment",
+    "robot": 3,
+    "job": "job-0006"
+  },
+  {
+    "tick": 35,
+    "kind": "delivered",
+    "job": "job-0001"
+  },
+  {
+    "tick": 35,
+    "kind": "delivered",
+    "job": "job-0005"
+  },
+  {
+    "tick": 35,
+    "kind": "assignment",
+    "robot": 1,
+    "job": "job-0007"
+  },
+  {
+    "tick": 35,
+    "kind": "assignment",
+    "robot": 2,
+    "job": "job-0008"
+  },
+  {
+    "tick": 35,
+    "kind": "closure_activated",
+    "cell": [
+      5,
+      1
+    ]
+  },
+  {
+    "tick": 39,
+    "kind": "delivered",
+    "job": "job-0004"
+  },
+  {
+    "tick": 39,
+    "kind": "assignment",
+    "robot": 0,
+    "job": "job-0009"
+  },
+  {
+    "tick": 47,
+    "kind": "delivered",
+    "job": "job-0009"
+  },
+  {
+    "tick": 47,
+    "kind": "assignment",
+    "robot": 0,
+    "job": "job-0010"
+  },
+  {
+    "tick": 58,
+    "kind": "delivered",
+    "job": "job-0007"
+  },
+  {
+    "tick": 58,
+    "kind": "assignment",
+    "robot": 1,
+    "job": "job-0011"
+  },
+  {
+    "tick": 62,
+    "kind": "delivered",
+    "job": "job-0006"
+  },
+  {
+    "tick": 62,
+    "kind": "assignment",
+    "robot": 3,
+    "job": "job-0012"
+  },
+  {
+    "tick": 64,
+    "kind": "delivered",
+    "job": "job-0008"
+  },
+  {
+    "tick": 64,
+    "kind": "assignment",
+    "robot": 2,
+    "job": "job-0013"
+  },
+  {
+    "tick": 75,
+    "kind": "delivered",
+    "job": "job-0011"
+  },
+  {
+    "tick": 75,
+    "kind": "assignment",
+    "robot": 1,
+    "job": "job-0014"
+  },
+  {
+    "tick": 86,
+    "kind": "delivered",
+    "job": "job-0013"
+  },
+  {
+    "tick": 86,
+    "kind": "assignment",
+    "robot": 2,
+    "job": "job-0015"
+  },
+  {
+    "tick": 87,
+    "kind": "delivered",
+    "job": "job-0010"
+  },
+  {
+    "tick": 87,
+    "kind": "assignment",
+    "robot": 0,
+    "job": "job-0016"
+  },
+  {
+    "tick": 89,
+    "kind": "delivered",
+    "job": "job-0012"
+  },
+  {
+    "tick": 89,
+    "kind": "assignment",
+    "robot": 3,
+    "job": "job-0017"
+  },
+  {
+    "tick": 97,
+    "kind": "delivered",
+    "job": "job-0016"
+  },
+  {
+    "tick": 97,
+    "kind": "delivered",
+    "job": "job-0014"
+  },
+  {
+    "tick": 97,
+    "kind": "assignment",
+    "robot": 0,
+    "job": "job-0018"
+  },
+  {
+    "tick": 97,
+    "kind": "assignment",
+    "robot": 1,
+    "job": "job-0019"
+  },
+  {
+    "tick": 109,
+    "kind": "delivered",
+    "job": "job-0015"
+  },
+  {
+    "tick": 109,
+    "kind": "assignment",
+    "robot": 2,
+    "job": "job-0020"
+  },
+  {
+    "tick": 116,
+    "kind": "delivered",
+    "job": "job-0017"
+  },
+  {
+    "tick": 116,
+    "kind": "assignment",
+    "robot": 3,
+    "job": "job-0021"
+  },
+  {
+    "tick": 117,
+    "kind": "delivered",
+    "job": "job-0019"
+  },
+  {
+    "tick": 117,
+    "kind": "assignment",
+    "robot": 1,
+    "job": "job-0022"
+  },
+  {
+    "tick": 122,
+    "kind": "delivered",
+    "job": "job-0018"
+  },
+  {
+    "tick": 122,
+    "kind": "assignment",
+    "robot": 0,
+    "job": "job-0023"
+  },
+  {
+    "tick": 129,
+    "kind": "delivered",
+    "job": "job-0020"
+  },
+  {
+    "tick": 130,
+    "kind": "delivered",
+    "job": "job-0022"
+  },
+  {
+    "tick": 136,
+    "kind": "delivered",
+    "job": "job-0021"
+  },
+  {
+    "tick": 143,
+    "kind": "delivered",
+    "job": "job-0023"
+  }
+]

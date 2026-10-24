@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "method": "connected in-app browser",
+  "standalone_chrome_launch": "blocked",
+  "browser_download_test": "interrupted; API exports verified separately",
+  "checks": [
+    "real SSE snapshots",
+    "step, play, pause",
+    "comparison toggle and heatmap",
+    "fitted model metadata and recorded held-out results",
+    "map draft editing, validation and reset",
+    "worker cancellation and all three completed policy rows",
+    "seed change and reload persistence",
+    "learned policy selection",
+    "780px responsive layout without horizontal overflow"
+  ],
+  "screenshots": [
+    "docs/images/console.png",
+    "docs/images/model.png",
+    "docs/images/experiment.png",
+    "docs/images/console-compact.png"
+  ],
+  "console_errors_observed": []
+}
