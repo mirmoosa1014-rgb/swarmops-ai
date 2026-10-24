@@ -102,4 +102,4 @@ Models are project-implemented ridge/forest regressors, **not scikit-learn**. Sc
 
 [Architecture](docs/architecture.md) · [Planner](docs/planner.md) · [Dispatch](docs/dispatch.md) · [Learning](docs/learning.md) · [Reviewer guide and demo](docs/reviewer-guide.md) · [Attribution](THIRD_PARTY.md)
 
-Built with substantial AI assistance from Codex. This repository documents the implementation and simulated evidence. It does not claim that the owner manually wrote every component, deployed physical robots, or achieved real warehouse savings.
+Created with project direction and feedback from Moosa Mir, and development assistance from Codex. Results describe a software simulation and do not claim physical robot deployment or real warehouse savings.
