@@ -90,7 +90,7 @@
   selector synchronization. Local app currently served on port 8766; 8765 had an
   earlier process, so no unrelated service was stopped to reuse it.
 
-## Section 5 — publication preparation (2026-10-24)
+## Section 5 — published and verified (2026-10-24)
 
 - Reworked the portfolio README and research gallery with a measured overview,
   five consistently styled research figures, real screenshots and trace animation.
@@ -104,13 +104,15 @@
 - Publishing uses a separate clean checkout so neither CircuitForge history nor
   unrelated files are staged. GitHub identity matches the authenticated account
   and the existing repository's public noreply author identity. Public repository
-  target: https://github.com/mirmoosa1014-rgb/swarmops-ai . Hosted CI status must
-  be read after pushing; no success is assumed in advance.
+  target: https://github.com/mirmoosa1014-rgb/swarmops-ai . Publication succeeded
+  at source commit 56970f6a165f3d1c4f37cbfd71acf1f232b41727. Local and remote hashes
+  match; GitHub Actions passed: https://github.com/mirmoosa1014-rgb/swarmops-ai/actions/runs/40115881119 .
+  README and graph/screenshot/animation assets were verified through GitHub.
 
 ## Resume
 
 Read README.md and docs/planner.md, inspect repository instructions and git
-status, then run ./test.sh. Continue publication without changing the frozen model or
+status, then run ./test.sh. Use the published SwarmOps repository without changing the frozen model or
 tuning against its now-viewed test set. Preserve all mixed/negative results and
 the unsolvable-corridor test. Read docs/dispatch.md, docs/learning.md and the model
 card for observation boundaries and artifact semantics. The numerical learning
@@ -122,3 +124,15 @@ them. Review staged contents carefully before publication; the project is still
 an untracked folder in the parent repository and must not publish CircuitForge
 files or parent history. Current README, docs/console.md and results/browser.json
 document which browser checks ran and the remaining download-check limitation.
+
+## Delivery checklist
+
+- [x] Real simulator, three dispatchers and fitted model
+- [x] Whole-layout/run splits and honest measured findings
+- [x] Local FastAPI/React console and persistence
+- [x] Six styled data figures, actual screenshots and recorded-trace animation
+- [x] Tests, build, clean-copy checks and quick reproduction
+- [x] License, attribution, model card, reviewer guide and demo script
+- [x] Secret scan, separate public repository, verified push and successful hosted CI
+
+The earlier browser-download interruption remains documented; export APIs pass.
